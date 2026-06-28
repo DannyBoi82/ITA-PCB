@@ -1,0 +1,52 @@
+# ===========================================================================
+#  NEXUS_tapeout_connector — keep ONLY the Altium design source.
+#  Tracked: *.PrjPcb, *.PrjPcbStructure, *.SchDoc, *.PcbDoc, *.SchLib,
+#           *.PcbLib, *.BomDoc, and the Pin Manager CSVs
+#           ("CNFET Processor PCB - *.csv"). Everything else is ignored.
+# ===========================================================================
+
+# --- Non-design material (datasheets, MCM, spreadsheets, analysis) ---
+non-altium-files/
+
+# --- Altium local history / generated outputs / logs ---
+History/
+__Previews/
+__Preview/
+Project Outputs*/
+Project Logs*/
+
+# --- Pin Manager scratch/export artifacts (the CSVs are kept, these aren't) ---
+Pin Files/
+*.PinInfo
+
+# --- Specctra / external router session files ---
+*.dsn
+*.ses
+*.do
+*.cctpref
+*.rte
+*.w
+
+# --- Reports, logs, messages ---
+*.html
+*.htm
+*.Txt
+*.DRC
+*.LDP
+*.Error
+*.Logs
+*.REP
+*.csv.Annotation
+
+# --- Temp / lock / user-layout files ---
+*.Lock
+*.~*
+*.PcbDoc.Annotation
+*.PcbDoc.DesignAnalysis
+*.SchDoc.Annotation
+*.Annotation
+*.DAT
+*.DXPPrj
+*.OutJob.Annotation
+~$*
+desktop.ini
