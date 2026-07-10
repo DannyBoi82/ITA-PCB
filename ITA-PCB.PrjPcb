@@ -51,7 +51,7 @@ PrefsRevisionGUID=
 
 [Document1]
 DocumentPath=COBConnector.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -475,7 +475,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document26]
-DocumentPath=PCB1.PcbDoc
+DocumentPath=ITA.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
