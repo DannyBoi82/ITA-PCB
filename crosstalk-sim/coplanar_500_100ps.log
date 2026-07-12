@@ -1,0 +1,20 @@
+LTspice 26.0.2 for Windows
+Circuit: C:\Users\Public\Documents\Altium\NEXUS-connectors\ITA-PCB\crosstalk-sim\coplanar_500_100ps.net
+Start Time: Fri Jul 10 23:06:09 2026
+solver = Normal
+Maximum thread count: 20
+tnom = 27
+temp = 27
+method = trap
+.OP point found by inspection.
+.OP point found by inspection.
+Total elapsed time: 0.372 seconds.
+
+Files loaded:
+C:\Users\Public\Documents\Altium\NEXUS-connectors\ITA-PCB\crosstalk-sim\coplanar_500_100ps.net
+
+next_max: MAX(V(b0))=0.0211866181344 FROM 0 TO 2.8e-09
+next_min: MIN(V(b0))=-3.12595062724e-07 FROM 0 TO 2.8e-09
+fext_max: MAX(V(b200))=0.000601236475632 FROM 0 TO 2.8e-09
+fext_min: MIN(V(b200))=-0.016837593168 FROM 0 TO 2.8e-09
+aggr: MAX(V(a0))=0.502719700336 FROM 0 TO 2.8e-09
