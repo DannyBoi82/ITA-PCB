@@ -37,9 +37,9 @@ Pin Designator,Net Name
 36,VSS
 37,rst_n
 38,VSS
-39,REP_SEL[0]
+39,REP_SEL[1]
 40,VSS
-41,REP_SEL[1]
+41,REP_SEL[0]
 42,VSS
 43,REP_SEL[2]
 44,VSS

@@ -5,11 +5,11 @@ Pin Designator,Net Name
 4,VSS
 5,ctrl_i_segment[21]
 6,VSS
-7,ctrl_i_segment[20]
+7,ctrl_i_segment[18]
 8,VSS
-9,ctrl_i_segment[19]
+9,ctrl_i_segment[20]
 10,VSS
-11,ctrl_i_segment[18]
+11,ctrl_i_segment[19]
 12,VSS
 13,ctrl_i_segment[17]
 14,VSS
