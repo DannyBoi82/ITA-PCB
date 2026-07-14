@@ -55,7 +55,7 @@ Pin Designator,Net Name
 54,VSS
 55,
 56,VSS
-57,
+57,VDD
 58,VSS
 59,ctrl_i_segment[46]
 60,RESERVED

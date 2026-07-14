@@ -49,9 +49,9 @@ Pin Designator,Net Name
 48,VSS
 49,clk_i
 50,VSS
-51,bank0_addr[9]
+51,bank0_init_en
 52,VSS
-53,bank0_init_en
+53,bank0_addr[9]
 54,VSS
 55,bank0_addr[10]
 56,VSS
