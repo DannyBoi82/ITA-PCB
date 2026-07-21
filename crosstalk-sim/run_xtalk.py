@@ -33,10 +33,12 @@ CASES = {
     "coplanar": params(d["cop_L"], d["cop_C"]),
     "broadside": params(d["bro_L"], d["bro_C"]),
 }
-EDGES = [100e-12, 300e-12, 1e-9, 3e-9]
+# 4 ns = 10% of the 25 MHz IO period (chip IO edge rate, confirmed 2026-07-21).
+# 100 ps..3 ns retained only as the (now-irrelevant) fast-edge reference.
+EDGES = [100e-12, 300e-12, 1e-9, 3e-9, 4e-9]
 LENGTHS_MIL = {
     "coplanar": [500, 1500, 3000],
-    "broadside": [250, 500, 1000],
+    "broadside": [250, 500, 1000, 1500, 2000],
 }
 N = 200   # ladder sections
 

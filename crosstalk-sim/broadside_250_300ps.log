@@ -1,6 +1,6 @@
 LTspice 26.0.2 for Windows
 Circuit: C:\Users\Public\Documents\Altium\NEXUS-connectors\ITA-PCB\crosstalk-sim\broadside_250_300ps.net
-Start Time: Fri Jul 10 23:06:21 2026
+Start Time: Tue Jul 21 13:13:26 2026
 solver = Normal
 Maximum thread count: 20
 tnom = 27
@@ -8,7 +8,7 @@ temp = 27
 method = trap
 .OP point found by inspection.
 .OP point found by inspection.
-Total elapsed time: 0.325 seconds.
+Total elapsed time: 0.304 seconds.
 
 Files loaded:
 C:\Users\Public\Documents\Altium\NEXUS-connectors\ITA-PCB\crosstalk-sim\broadside_250_300ps.net
